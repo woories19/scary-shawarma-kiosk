@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dmmi80l6x5re1"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - The 90's RomCom.ogg-f0f747cc56bf35b4d3cefc54db3aa499.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - The 90's RomCom.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - The 90's RomCom.ogg-f0f747cc56bf35b4d3cefc54db3aa499.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

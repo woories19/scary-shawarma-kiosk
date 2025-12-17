@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://1x8d164eo2yr"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Treehouse Party.ogg-906b0b7de86cfbeeca1026adf85873be.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - Treehouse Party.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Treehouse Party.ogg-906b0b7de86cfbeeca1026adf85873be.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

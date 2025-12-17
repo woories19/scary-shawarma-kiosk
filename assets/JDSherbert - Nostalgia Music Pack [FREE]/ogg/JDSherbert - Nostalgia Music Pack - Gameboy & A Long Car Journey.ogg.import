@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://boyduy3t1q6y2"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Gameboy & A Long Car Journey.ogg-8051711c7b836881391bb0b6aeeaa1c2.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - Gameboy & A Long Car Journey.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Gameboy & A Long Car Journey.ogg-8051711c7b836881391bb0b6aeeaa1c2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

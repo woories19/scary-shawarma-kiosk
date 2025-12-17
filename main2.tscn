@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://btkd3xxse8511"]
+
+[ext_resource type="Texture2D" uid="uid://c1aho28p283y6" path="res://autumn_field_puresky_4k.hdr" id="1_8ce7h"]
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="2_3yxjw"]
+[ext_resource type="PackedScene" uid="uid://dnsodpqsxpe3l" path="res://assets/Characters_psx/Models/Male/Character_01.fbx" id="3_elgsa"]
+
+[sub_resource type="Gradient" id="Gradient_sck4r"]
+offsets = PackedFloat32Array(0, 0.141176, 0.884706, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.156225, 0.154686, 0.156976, 1, 0.921744, 0.879743, 0.811774, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_74d3q"]
+gradient = SubResource("Gradient_sck4r")
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_1mhn8"]
+panorama = ExtResource("1_8ce7h")
+
+[sub_resource type="Sky" id="Sky_qenc5"]
+sky_material = SubResource("PanoramaSkyMaterial_1mhn8")
+
+[sub_resource type="Environment" id="Environment_0rof8"]
+background_mode = 2
+background_energy_multiplier = 0.4
+sky = SubResource("Sky_qenc5")
+ambient_light_sky_contribution = 0.7
+tonemap_mode = 3
+tonemap_exposure = 1.2
+tonemap_white = 6.0
+ssao_enabled = true
+glow_enabled = true
+adjustment_enabled = true
+adjustment_color_correction = SubResource("GradientTexture1D_74d3q")
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_w8cd7"]
+auto_exposure_speed = 5.0
+
+[sub_resource type="Skin" id="Skin_8ce7h"]
+
+[node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_0rof8")
+camera_attributes = SubResource("CameraAttributesPractical_w8cd7")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.740436, 0.541474, -0.398197, 0.0661721, 0.530838, 0.844886, 0.668862, -0.651933, 0.357221, 0, 25.2, 0)
+light_color = Color(1, 1, 0.94902, 1)
+shadow_enabled = true
+
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.15, -0.5, 8.4)
+use_collision = true
+size = Vector3(59.4, 1, 71.6)
+metadata/_edit_lock_ = true
+
+[node name="ProtoController" parent="." instance=ExtResource("2_3yxjw")]
+transform = Transform3D(0.766044, 0, -0.642788, 0, 1, 0, 0.642788, 0, 0.766044, 9.467949, 1.8415883, 7.169939)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+skin = SubResource("Skin_8ce7h")
+
+[node name="Character_01" parent="MeshInstance3D" instance=ExtResource("3_elgsa")]

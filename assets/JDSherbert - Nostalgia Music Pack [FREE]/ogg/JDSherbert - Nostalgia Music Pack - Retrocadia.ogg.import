@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bn1jas3bw0fax"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Retrocadia.ogg-a73993ceb4000e80f799af8a2b496bac.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - Retrocadia.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Retrocadia.ogg-a73993ceb4000e80f799af8a2b496bac.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

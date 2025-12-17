@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5o0n4s412ui1"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Gameboy & A Long Car Journey.wav-af5e4706fc3a920f9ccf97f391bd9a6c.sample"
+
+[deps]
+
+source_file="res://assets/JDSherbert - Nostalgia Music Pack [FREE]/wav/JDSherbert - Nostalgia Music Pack - Gameboy & A Long Car Journey.wav"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Gameboy & A Long Car Journey.wav-af5e4706fc3a920f9ccf97f391bd9a6c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

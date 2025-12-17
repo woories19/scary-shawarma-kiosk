@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btfyu7vwbytyn"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - VCR Jungle.mp3-a6c69922c5c53209e0a7263d5835141c.mp3str"
+
+[deps]
+
+source_file="res://assets/JDSherbert - Nostalgia Music Pack [FREE]/mp3/JDSherbert - Nostalgia Music Pack - VCR Jungle.mp3"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - VCR Jungle.mp3-a6c69922c5c53209e0a7263d5835141c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
