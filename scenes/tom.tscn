@@ -1,0 +1,89 @@
+[gd_scene load_steps=6 format=3 uid="uid://dii3mwyllvj2o"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_eah0l"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ugvm7"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_85xcm"]
+sky_material = SubResource("ProceduralSkyMaterial_ugvm7")
+
+[sub_resource type="Environment" id="Environment_j3qnj"]
+background_mode = 2
+sky = SubResource("Sky_85xcm")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ugvm7"]
+albedo_color = Color(0.46906418, 0.2211937, 9.62615e-08, 1)
+
+[node name="Scene" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_j3qnj")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.34202015, -0.8137977, 0.46984622, 2.7805946e-08, 0.49999994, 0.86602545, -0.9396926, -0.29619816, 0.17101003, 27.1, 19.5, 9.900001)
+shadow_enabled = true
+
+[node name="Ground" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.9802322e-08, 0)
+use_collision = true
+size = Vector3(80.1, 1, 32.100002)
+metadata/_edit_lock_ = true
+
+[node name="groundSub" type="CSGBox3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35, 0)
+operation = 2
+size = Vector3(80.1, 0.4, 6.2)
+metadata/_edit_lock_ = true
+
+[node name="Road" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.19999996, 1.1920929e-07)
+use_collision = true
+size = Vector3(80.1, 0.2, 6.2000003)
+metadata/_edit_lock_ = true
+
+[node name="Store Wall 1" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.15, -5.2999997)
+use_collision = true
+size = Vector3(5.8, 3.3, 0.2)
+material = SubResource("StandardMaterial3D_ugvm7")
+metadata/_edit_lock_ = true
+
+[node name="wall1Sub" type="CSGBox3D" parent="Store Wall 1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3841858e-07, 0.4500003, 0)
+operation = 2
+size = Vector3(4.6, 1.8000001, 0.2)
+metadata/_edit_lock_ = true
+
+[node name="Store Wall 2" type="CSGBox3D" parent="."]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.8, 2.15, -7.649999)
+use_collision = true
+size = Vector3(4.5, 3.3, 0.2)
+material = SubResource("StandardMaterial3D_ugvm7")
+metadata/_edit_lock_ = true
+
+[node name="Store Wall 3" type="CSGBox3D" parent="."]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 2.8, 2.15, -7.649999)
+use_collision = true
+size = Vector3(4.5, 3.3, 0.2)
+material = SubResource("StandardMaterial3D_ugvm7")
+metadata/_edit_lock_ = true
+
+[node name="Store Wall 4" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.15, -10)
+use_collision = true
+size = Vector3(5.8, 3.3, 0.2)
+material = SubResource("StandardMaterial3D_ugvm7")
+metadata/_edit_lock_ = true
+
+[node name="wall4Sub" type="CSGBox3D" parent="Store Wall 4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.75, -0.35000002, 0)
+operation = 2
+size = Vector3(1.5, 2.7, 0.2)
+metadata/_edit_lock_ = true
+
+[node name="ProtoController" parent="." instance=ExtResource("1_eah0l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0.5, -143.5)
