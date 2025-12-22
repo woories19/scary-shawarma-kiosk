@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2dcddqvhuquk"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Saturday Morning Cartoons.mp3-f5f22af08a9eb7656ae55c79c7b94f1e.mp3str"
+
+[deps]
+
+source_file="res://assets/_downloaded/JDSherbert - Nostalgia Music Pack [FREE]/mp3/JDSherbert - Nostalgia Music Pack - Saturday Morning Cartoons.mp3"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Saturday Morning Cartoons.mp3-f5f22af08a9eb7656ae55c79c7b94f1e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cprmw8rhuhq0o"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Sk8r Bruh.ogg-263cb6d6340bf190983cbf5550c237fb.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/_downloaded/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - Sk8r Bruh.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Sk8r Bruh.ogg-263cb6d6340bf190983cbf5550c237fb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

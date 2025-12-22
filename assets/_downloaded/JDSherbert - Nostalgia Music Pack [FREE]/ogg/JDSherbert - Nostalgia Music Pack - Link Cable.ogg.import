@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b1vfmjjiuedt4"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Link Cable.ogg-c5fd806bca5cb20ec0d3d49577b876df.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/_downloaded/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - Link Cable.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Link Cable.ogg-c5fd806bca5cb20ec0d3d49577b876df.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

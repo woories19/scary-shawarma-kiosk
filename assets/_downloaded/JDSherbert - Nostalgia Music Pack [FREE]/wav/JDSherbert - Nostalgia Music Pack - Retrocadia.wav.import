@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2c271bkiiyhv"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - Retrocadia.wav-8fb52745b70cbcd120440e41939792ac.sample"
+
+[deps]
+
+source_file="res://assets/_downloaded/JDSherbert - Nostalgia Music Pack [FREE]/wav/JDSherbert - Nostalgia Music Pack - Retrocadia.wav"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - Retrocadia.wav-8fb52745b70cbcd120440e41939792ac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

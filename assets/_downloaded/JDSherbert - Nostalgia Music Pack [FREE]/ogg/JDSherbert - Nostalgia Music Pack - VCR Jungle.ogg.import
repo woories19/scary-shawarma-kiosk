@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://deaseecb74vng"
+path="res://.godot/imported/JDSherbert - Nostalgia Music Pack - VCR Jungle.ogg-91c84a2c68bd5789bfcd38826dcce0e3.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/_downloaded/JDSherbert - Nostalgia Music Pack [FREE]/ogg/JDSherbert - Nostalgia Music Pack - VCR Jungle.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Nostalgia Music Pack - VCR Jungle.ogg-91c84a2c68bd5789bfcd38826dcce0e3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
